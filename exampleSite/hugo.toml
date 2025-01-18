@@ -26,7 +26,7 @@ defaultContentLanguage = 'en'
     extended = true
     min = "0.100.0"
   [[module.imports]]
-    path = "github.com/colinwilson/lotusdocs"
+    path = "github.com/gtsteffaniak/filebrowserDocsTheme"
     disable = false
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -59,7 +59,7 @@ defaultContentLanguage = 'en'
   mono_font       = "Fira Code" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/gtsteffaniak/filebrowserDocsTheme)"
         # version = true # includes git commit info
 
     [params.social]
@@ -82,7 +82,7 @@ defaultContentLanguage = 'en'
         prismTheme      = "solarized-light"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
-        repoURL         = "https://github.com/colinwilson/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        repoURL         = "https://github.com/gtsteffaniak/filebrowserDocsTheme.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
         repoBranch      = "release"
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
@@ -171,6 +171,6 @@ defaultContentLanguage = 'en'
 
 # [[menu.primary]]
 #     name  = "Community"
-#     url = "https://github.com/colinwilson/lotusdocs/discussions"
+#     url = "https://github.com/gtsteffaniak/filebrowserDocsTheme/discussions"
 #     identifier = "community"
 #     weight = 30

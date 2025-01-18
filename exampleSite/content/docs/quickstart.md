@@ -87,7 +87,7 @@ You can now choose your preferred method for adding the Lotus Docs theme to your
 {{< tabs tabTotal="3">}}
 {{% tab tabName="Add as a Hugo Module" %}}
 
-Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/colinwilson/lotusdocs) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) (lines `5 to 11` below):
+Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https://github.com/gtsteffaniak/filebrowserDocsTheme) and the [Hugo Bootstrap module](https://github.com/gohugoio/hugo-mod-bootstrap-scss) (lines `5 to 11` below):
 
 ```toml {linenos=table,hl_lines=["5-11"]}
 baseURL = 'http://example.org/'
@@ -96,7 +96,7 @@ title = 'My New Hugo Site'
 
 [module]
     [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
+        path = "github.com/gtsteffaniak/filebrowserDocsTheme"
         disable = false
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
@@ -111,7 +111,7 @@ Initialize Git and clone the Lotus Docs theme repository as a submodule:
 
 ```shell
 git init
-git submodule add https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git submodule add https://github.com/gtsteffaniak/filebrowserDocsTheme themes/lotusdocs
 ```
 
 Update your existing `hugo.toml` config file with the configuration below:
@@ -140,7 +140,7 @@ In cases where you prefer to customise and maintain the Lotus Docs theme yoursel
 Run the following command from your project’s root directory to clone the Lotus Docs theme into your `themes` subdirectory:
 
 ```shell
-git clone https://github.com/colinwilson/lotusdocs themes/lotusdocs
+git clone https://github.com/gtsteffaniak/filebrowserDocsTheme themes/lotusdocs
 ```
 
 Edit the `hugo.toml` configuration file to include the Lotus Docs theme and the Hugo Bootstrap module (lines `5 to 11` below):
