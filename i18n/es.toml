@@ -1,0 +1,38 @@
+[lang_select_title]
+    other = "Seleccione su idioma"
+
+[search_title]
+    other = "Buscar"
+
+[search_navigate]
+    other = "para navegar"
+
+[search_select]
+    other = "para seleccionar"
+
+[search_close]
+    other = "para cerrar"
+
+[search_cancel]
+    other = "cancelar"
+
+[search_no_results]
+    other = "No hay resultados para"
+
+[feedback_yes]
+    other = "Sí"
+
+[feedback_no]
+    other = "No"
+
+[feedback_helpful]
+    other = "¿Fue útil esta página?"
+
+[feedback_submit]
+    other = "Enviar"
+
+[enable_light_mode]
+    other = "Activar modo claro"
+
+[enable_dark_mode]
+    other = "Activar modo oscuro"

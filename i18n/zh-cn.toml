@@ -1,0 +1,38 @@
+[lang_select_title]
+    other = "选择语言"
+
+[search_title]
+    other = "搜索"
+
+[search_navigate]
+    other = "进行导航"
+
+[search_select]
+    other = "进行选择"
+
+[search_close]
+    other = "关闭"
+
+[search_cancel]
+    other = "取消"
+
+[search_no_results]
+    other = "未找到结果："
+
+[feedback_yes]
+    other = "是"
+
+[feedback_no]
+    other = "否"
+
+[feedback_helpful]
+    other = "此页面有帮助吗？"
+
+[feedback_submit]
+    other = "提交"
+
+[enable_light_mode]
+    other = "开启浅色模式"
+
+[enable_dark_mode]
+    other = "开启深色模式"
