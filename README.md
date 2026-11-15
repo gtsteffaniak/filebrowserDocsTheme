@@ -39,9 +39,9 @@ Check out the demo site [https://lotusdocs.dev/docs/](https://lotusdocs.dev/docs
 
 ### Requirements
 
-- Hugo **Extended** (minimum version: 0.120.0)
+- Hugo
 - git
-- Go (minimum version v1.20)
+- Go (minimum version v1.24)
 
 ### Initialize your site as a Hugo Module
 
@@ -65,7 +65,7 @@ Edit the `hugo.toml` configuration file to include the [Lotus Docs theme](https:
 
 ```toml
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'My New Hugo Site'
 
 [module]
@@ -90,7 +90,7 @@ Edit the `hugo.toml` config file:
 
 ```toml
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'My New Hugo Site'
 
 [module]
@@ -117,7 +117,7 @@ Edit the `hugo.toml` config file:
 
 ```toml
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'My New Hugo Site'
 
 [module]

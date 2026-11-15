@@ -23,8 +23,7 @@ defaultContentLanguage = 'en'
 
 [module]
   [module.hugoVersion]
-    extended = true
-    min = "0.100.0"
+    min = "0.158.0"
   [[module.imports]]
     path = "github.com/gtsteffaniak/filebrowserDocsTheme"
     disable = false
